@@ -306,8 +306,6 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bc
 
 $(call inherit-product-if-exists, hardware/qcom/msm8x74/msm8x74.mk)
 
-## Omni-specific stuff
-
 # OmniTorch
 PRODUCT_PACKAGES += \
-    OmniTorch
+    Torch
